@@ -10,7 +10,7 @@ npm install
 npm run android
 ```
 
-### Compiles and minifies for production
+### Compiles and hot-reloads for development ios
 ```
 npm run ios
 ```
