@@ -2,7 +2,7 @@
 
 ## Project setup
 ```
-npm install
+npm install --save
 ```
 
 ### Compiles and hot-reloads for development android
@@ -10,6 +10,11 @@ npm install
 npm run android
 ```
 
+### Setup IOS
+```
+cd ios
+pod install
+```
 ### Compiles and hot-reloads for development ios
 ```
 npm run ios
