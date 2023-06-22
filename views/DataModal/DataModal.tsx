@@ -30,7 +30,6 @@ const DataModal = ({route, navigation}) => {
     ),
   );
 
-  console.log(findedCarouselData);
   return (
     <View>
       <ScrollView
