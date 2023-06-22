@@ -17,7 +17,7 @@ import {selectNavigation} from '../../../store/reducers/NavigatorReducer';
 
 // Default Props
 const defaults = {
-  height: 420,
+  height: 340,
   width: Dimensions.get('window').width,
   delay: 5000,
 };
@@ -92,7 +92,7 @@ const Item = ({title, image, height, width, onPress, color, icon, id}) => {
           </View>
         </Center>
         <Center>
-          <View style={{marginTop: 25}}>
+          <View style={{marginTop: 15}}>
             <TouchableOpacity
               onPress={() => {
                 dispatch(selectNavigation(-1));
@@ -238,7 +238,7 @@ const styles = StyleSheet.create({
     paddingLeft: 10,
   },
   title: {
-    fontSize: 18,
+    fontSize: 14,
     color: '#000',
     fontWeight: 'bold',
     fontFamily: 'helvetica',

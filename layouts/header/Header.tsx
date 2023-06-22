@@ -25,7 +25,7 @@ function Header() {
       <HStack
         bg="#FFFFFF"
         px="1"
-        py="10"
+        py="5"
         justifyContent="space-between"
         alignItems="center"
         w="100%">
